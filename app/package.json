@@ -51,7 +51,8 @@
     "ssh-exec": "^2.0.0",
     "sudo-prompt": "^7.1.0",
     "svgo": "~0.7.2",
-    "temporary": "0.0.8"
+    "temporary": "0.0.8",
+    "snyk": "^1.189.0"
   },
   "readme": "../README.md",
   "keywords": [
@@ -59,5 +60,10 @@
     "open",
     "editor",
     "hardware"
-  ]
+  ],
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
