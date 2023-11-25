@@ -50,7 +50,7 @@
     "sha1": "^1.1.1",
     "ssh-exec": "^2.0.0",
     "sudo-prompt": "^7.1.0",
-    "svgo": "~0.7.2",
+    "svgo": "~1.0.0",
     "temporary": "0.0.8"
   },
   "readme": "../README.md",
